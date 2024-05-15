@@ -9,3 +9,10 @@
     font-family: $font-text;
     border-radius: $radius;
 }
+
+@media (max-width:567px) {
+    .input {
+        width: 50px;
+        padding: $base-size * 0.5;
+    }
+   }
