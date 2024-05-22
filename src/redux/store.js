@@ -3,8 +3,10 @@ import initialState from './initialState.js';
 
 
 const reducer = (state, action) => {
+  if(action.type === 'ADD_COLUMN') return { ...state, columns: [...state.columns, action.newColumn]}
   return state;
 };
+
 
 const store = createStore(
   reducer,
