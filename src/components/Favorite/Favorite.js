@@ -3,7 +3,7 @@ import PageTitle from "../PageTitle/PageTitle.js";
 const Favorite = () => {
     return(
         <>
-            <PageTitle>Lorem ipsum.</PageTitle>
+            <PageTitle>Favorite</PageTitle>
             <p>Lorem Ipsum</p>
         </>
      

@@ -7,6 +7,7 @@ import About from './components/About/About.js';
 import NotFound from './components/NotFound/NotFound.js';
 import { Routes, Route } from 'react-router-dom';
 
+
 const App = () => {
   return (
     <main>
