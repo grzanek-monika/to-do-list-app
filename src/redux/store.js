@@ -10,7 +10,7 @@ export const getFilteredCards = ({cards, searchString}, columnId) => cards
 
 export const getAllColumns = (state => state.columns);
 
-export const getAllCards = (state => state.cards);
+export const getFavotiteCards = ({cards}) => cards.filter(card => card.isFavorite === true);
 
 export const getListById = ({lists}, listId) => lists.find(list => list.id === listId);
 
@@ -19,6 +19,7 @@ export const getColumnsByList = ({columns}, listId) => columns.filter(column => 
 export const getAllLists = (state => state.lists);
 
 export const getSearchString = ({ searchString }) => searchString;
+
 
 const reducer = (state, action) => {
   switch(action.type){

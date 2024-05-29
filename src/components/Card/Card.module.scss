@@ -11,3 +11,16 @@
     justify-content: space-between;
     font-weight: bold;
 }
+
+.btnFavorite {
+    border: none;
+    font-size: 18px;
+    
+    :hover {
+        cursor: pointer;
+    }
+}
+
+.isFavorite {
+    color: gold;
+}
