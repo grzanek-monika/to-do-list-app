@@ -4,7 +4,8 @@ import Column from '../Column/Column.js';
 import ColumnForm from '../ColumnForm/ColumnForm.js';
 import { useParams, Navigate} from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import { getColumnsByList, getListById } from '../../redux/store.js';
+import { getListById } from '../../redux/listsReducer.js';
+import { getColumnsByList } from '../../redux/columnsReducer.js';
 
 const List = () => {
 
